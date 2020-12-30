@@ -1,41 +1,39 @@
-# Emergency-Tweets
+# Emergency Tweets
 
-### Description :-
+Many people around the world face unfortunate circumstances everyday. These people may require immediate aid and are dependent on others for help. The situation they are in could be classified as one of the following:
 
-**Many innocent people could not get emergency help when they are facing any sort trouble from the following :**
+    1) Life Threats
+    3) Nature Calamities
+    4) Financial Issues
 
-    1) Health
-    2) Threat
-    3) Nature Calamity
+**Millions of users are on Twitter everyday. Our team thought that with the help of the Twitter platform, we could find a way to get tweets of users in need of help better reach. By this we could immediately connecct them with individuals that can offer them with assistance.**
 
-**This is because their message may not reach or get notified to respective departments. So we came up with a solution which will over come this problem using a greatest networking service provider in the world `Twitter`.**
-
-We achived it by adding an extra button on `Sidebar of Twitter` Clone, by clicking button it directs to a webpage where we can all **Emergency Tweets** in three categories.
+We achived this by developing a feature on our Twitter clone by adding an additional section on the sidebar of Twitter. This will direct the user to the `Emergency Tweets` section where we categorise these tweets as General, Immediate, and #TwitterSOS.
 
 <img src="https://github.com/Mugunthanraju/Emergency-Tweets/blob/main/ScreenShot/image.png" alt="Twitter Application" >
 
-### How it built :
+### How it's been built:
 
-**The front-end was done using React.js The full-stack is done using Django, Twitter API The Backend is Python, sklearn, nltk, Watson NLU API**
+**The frontend was developed using React.js and the REST API was developed using Django. The Twitter API was used on the backend with Python, sklearn, nltk and Watson NLU API**
 
-**The design is simple: We hit the Twitter Search API to get the tweets using queries selected after a thoughtful process. The hashtags are shown on the right, and can be displayed directly.**
+**The Twitter Search API is used to retrieve tweets based on queries developed after a thorough discussion and research on keywords used in tweets calling out for help. The categories can be selected from the display on the right side of the user dashboard.**
 
 *For flagging and color coding tweets we have a combined model.*
 
-**1) Sarcasm Detector finds out if a tweet is sarcastic, because we all know people like beating around the bush on Twitter (Thanks @Kaitlyn for the idea).**
+**1) A Sarcasm Detector model filters out sarcastic tweets from the tweets returned by the Twitter API.**
 <br>
-**2) Fear Detector finds out if the person is scared by using IBM Watson NLU API.**
+**2) A Fear Detector checks for a fear in the tweets of the user that was developed by using IBM Watson NLU API.**
 <br>
-**3) If the tweet is not sarcastic and has fear elements, then the NLP model classifies those tweets as non-serious, police, or hospital related.**
+**3) If the tweet is not sarcastic and has fear elements, then the NLP model classifies those tweets as Immediate Attention, General(Funds/Donations), and #TwitterSOS.**
 
 
 <img src="https://github.com/Mugunthanraju/Emergency-Tweets/blob/main/ScreenShot/Steps.jpg" alt="Twitter Application" >
 
 
-### Authored by : 
+### Developed by : 
 
     1) Ekrem Guzelyel (ML, Backend)
     2) Mugunthan Raju (Front-end, Database)
     3) Mert Can Bilgiç (Front-End)
-    4) Soumya Vemuri (Full-Stack)
+    4) Soumya Vemuri (Full-Stack/REST API)
     5) Pranav Anand (ML, Backend)

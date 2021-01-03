@@ -35,5 +35,5 @@ We achived this by developing a feature on our Twitter clone by adding an additi
     1) Ekrem Guzelyel (ML, Backend)
     2) Mugunthan Raju (Front-end, Database)
     3) Mert Can Bilgiç (Front-End)
-    4) Soumya Vemuri (Full-Stack/REST API)
+    4) Soumya Vemuri (Full-Stack)
     5) Pranav Anand (ML, Backend)
